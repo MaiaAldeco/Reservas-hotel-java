@@ -1,0 +1,18 @@
+Escenario: 
+
+Un prestigioso hotel desea llevar a cabo un sistema para la informalización de las reservas de sus diferentes habitaciones que tiene disponibles. 
+Cada habitación cuenta con un número identificatorio, el piso donde se encuentra, un nombre segupun su temática, el tipo (single,doble, triple o múltiple) y el precio por noche.
+Para poder realizar una reserva de una habitación es necesario contar con la fecha de check-in (ingreso al hotel) y fecha de check-out (egreso del hotel). Antes de confirmar una reserva, el sistema deberá verificar que la habitación solicitada no esté reservada en el periodo de tiempo que se haya elegido.
+A partir de la cantidad de días que se hospede la persona y el tipo de habitación que haya elegido, el sistema deberá devolver el monto total de la estadía, al mismo tiempo, se deberá verificar que la cantidad de personas que se hospedarán no supere la cantidad establecida por el tipo de habitación; estas cantidades se detallan a continuación:
+Sigle: 1 sola persona.
+Double: 2 personas como máximo.
+Triple: 3 personas como máximo.
+Múltiple: 1,2,3,4 personas o más.
+Además de verificar las fechas de reservación, la cantidad de personas a hospedarse, etc, es necesario registrar los datos del huésped que se hará cargo de la reserva. Entre estos datos es necesario solicitar: dni, nombre, apellido, fecha de nacimiento, dirección y profesión. Por cuestiones de privacidad del hotel, no se registrarán los datos de los acompañantes.
+El sistema está pensado para ser utilizado únicamente por los EMPLEADOS del hotel, por lo que la interfaz gráfica y la utilización debe ser pensada de esta manera (no como un sistema de reservas online)
+Para la administración de los empleados, cada uno de ellos contará con un usuario y contraseña que le permitirá ingresar al sistema, para ello, cada uno de ellos deberá estar registrado en el sistema con sus correspondientes datos personales (dni, nombre, apellido, fecha de nacimiento, dirección y cargo). Cabe destacar que los empleados reciben bonificaciones monetarias por cantidad de reservas realizadas por día, por lo que cada reserva debe tener asignada el usuario que la dio de alta.
+Por otra parte, el sistema deberá poder permitir visualizar las siguientes consultas/informes:
+a. Todas las reservas realizadas en un determinado día.
+b. Todos los huéspedes registrados en el sistema.
+c. Lista de las reservas realizadas por un determinado empleado.
+d. Listas de todas las reservas realizadas por un determinado huésped en un período desde/hasta.
